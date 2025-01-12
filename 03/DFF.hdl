@@ -1,0 +1,8 @@
+
+CHIP DFF {
+    IN  in;
+    OUT out;
+
+    DFF(in = in, out = out);
+    CLOCKED in;
+}
